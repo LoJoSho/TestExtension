@@ -1,0 +1,4 @@
+name: "TestEnchant"
+main: me.lojosho.testextension.TestExtensionMain
+version: 1.0
+author: LoJoSho

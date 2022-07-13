@@ -1,0 +1,29 @@
+#
+# Test Enchant file
+#
+
+name: "Test Enchant"
+description: "Deals more damage to creepers"
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: uncommon
+
+general-config:
+  flags: []
+  targets:
+    - sword
+    - axe
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  requirements:
+    list: []
+    not-met-lore: []
+  conflicts: []
+  maximum-level: 3
+
+config:
+  bonus-per-level: 2
